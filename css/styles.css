@@ -159,3 +159,18 @@ body {
   width: 15px;
   margin-left: 60px;
 }
+
+.photoMain {
+  text-align: center;
+}
+
+.card img {
+  height: 300px;
+  width: 300px;
+}
+
+.card {
+  margin: 10px 10px 10px 10px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
