@@ -1,0 +1,161 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.outerHeader {
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding-bottom: 20px;
+  border-bottom: solid #efefef 1px;
+
+}
+.header {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 15px;
+
+
+}
+.headerimg {
+  display: flex;
+  flex-direction: row;
+}
+
+#instalogo {
+  height: 24px;
+  margin-top: 6px;
+}
+
+#headerlogo {
+  height: 40px;
+}
+
+#searchbar {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.7;
+  background-color: #efefef;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 5px;
+}
+
+#login {
+  border-radius: 5px;
+  background-color: #3195f3;
+  color: white;
+  font-size: 13px;
+  padding: 6px 10px 6px 10px;
+  border: none;
+  font-weight: bold;
+}
+
+#signup {
+  border: none;
+  color: #3195f3;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+.vl {
+  border-left: 1px solid black;
+  height: 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
+.middle {
+  display: flex;
+  margin-top: 130px;
+  border-bottom: solid #efefef 1px;
+  padding-bottom: 40px;
+}
+
+.epic {
+  margin-left: 60px;
+  margin-right: 80px;
+
+}
+
+#epicpic{
+  border-radius: 70px;
+  border: solid 1px #efefef;
+}
+
+#follow {
+  border-radius: 5px;
+  background-color: #3195f3;
+  color: white;
+  font-size: 13px;
+  border: none;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left:  20px;
+}
+
+.postName {
+  display: flex;
+  flex-direction: row;
+}
+
+#postTitle {
+  font-size: 25px;
+  margin: 0;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  margin-top:
+}
+
+#goo {
+  text-decoration: none;
+  color: #003569;
+}
+
+#body h4 {
+  margin: 0;
+  font-weight: bolder;
+}
+
+#parabody p {
+  margin: 0;
+}
+
+.tags {
+  opacity: 0.7;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#grid {
+  width: 12px;
+}
+
+#tagged {
+  width: 15px;
+  margin-left: 60px;
+}
