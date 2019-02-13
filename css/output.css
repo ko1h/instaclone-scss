@@ -1,7 +1,6 @@
 body {
-  background-color: #fafafa;
-  font-family: 'Poppins', sans-serif;
-}
+  font: 100% "Poppins", sans-serif;
+  background-color: #fafafa; }
 
 .outerHeader {
   width: 100%;
@@ -11,9 +10,8 @@ body {
   transform: translateX(-50%);
   background-color: white;
   padding-bottom: 20px;
-  border-bottom: solid #efefef 1px;
+  border-bottom: solid #efefef 1px; }
 
-}
 .header {
   margin-left: 10px;
   margin-right: 10px;
@@ -22,21 +20,21 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 15px;
-}
-.headerimg {
-  display: flex;
-  flex-direction: row;
-}
+  padding-right: 15px; }
 
 #instalogo {
   height: 24px;
-  margin-top: 6px;
-}
+  margin-top: 6px; }
 
 #headerlogo {
-  height: 40px;
-}
+  height: 40px; }
+
+.vl {
+  border-left: 1px solid black;
+  height: 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 3px; }
 
 #searchbar {
   text-align: center;
@@ -48,8 +46,11 @@ body {
   border-radius: 3px;
   padding-top: 2px;
   padding-bottom: 2px;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
+
+.headerimg {
+  display: flex;
+  flex-direction: row; }
 
 #login {
   border-radius: 5px;
@@ -58,42 +59,27 @@ body {
   font-size: 13px;
   padding: 6px 10px 6px 10px;
   border: none;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 #signup {
   border: none;
   color: #3195f3;
   font-size: 13px;
-  font-weight: bold;
-}
-
-
-.vl {
-  border-left: 1px solid black;
-  height: 32px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 3px;
-}
+  font-weight: bold; }
 
 .middle {
   display: flex;
   margin-top: 130px;
   border-bottom: solid #efefef 1px;
-  padding-bottom: 40px;
-}
+  padding-bottom: 40px; }
 
 .epic {
   margin-left: 60px;
-  margin-right: 80px;
+  margin-right: 80px; }
 
-}
-
-#epicpic{
+#epicpic {
   border-radius: 70px;
-  border: solid 1px #efefef;
-}
+  border: solid 1px #efefef; }
 
 #follow {
   border-radius: 5px;
@@ -106,122 +92,97 @@ body {
   padding-right: 10px;
   margin-top: 3px;
   margin-bottom: 3px;
-  margin-left:  20px;
-}
+  margin-left: 20px; }
 
 .postName {
   display: flex;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 #postTitle {
   font-size: 25px;
-  margin: 0;
-}
+  margin: 0; }
 
 .post {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 350px;
-  margin-top:
-}
+  width: 350px; }
 
 #goo {
   text-decoration: none;
-  color: #003569;
-}
+  color: #003569; }
 
 #body h4 {
   margin: 0;
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 #parabody p {
-  margin: 0;
-}
+  margin: 0; }
 
 .tags {
   opacity: 0.7;
   font-size: 14px;
   text-align: center;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 #grid {
-  width: 12px;
-}
+  width: 12px; }
 
 #tagged {
   width: 15px;
-  margin-left: 60px;
-}
+  margin-left: 60px; }
 
 .photoMain {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .cardHolder {
-  width: 1000px;
-}
+  width: 1000px; }
 
 .card img {
   height: 300px;
-  width: 300px;
-}
+  width: 300px; }
 
 .card {
   margin: 10px 10px 10px 10px;
   display: inline-grid;
-  grid-template-columns: auto auto auto;
-}
+  grid-template-columns: auto auto auto; }
 
 .pageBottom {
   text-align: center;
-  margin-top: 25px;
-
-}
+  margin-top: 25px; }
 
 .pageBottom a {
   text-decoration: none;
   color: #003569;
   margin-left: 15px;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .bottom4 p {
-  opacity: 0.5;
-}
+  opacity: 0.5; }
 
 @media screen and (max-width: 768px) {
   #searchbar {
-    display: none;
-  }
-}
-
+    display: none; } }
 @media screen and (max-width: 999px) {
   .card img {
     height: 200px;
-    width: 200px;
-  }
-  .cardHolder {
-    width: 700px;
-  }
-  .photoMain {
-    text-align: center;
-  }
-}
+    width: 200px; }
 
+  .cardHolder {
+    width: 700px; }
+
+  .photoMain {
+    text-align: center; } }
 @media screen and (max-width: 700px) {
   .card img {
     height: 100px;
-    width: 100px;
-  }
+    width: 100px; }
+
   .cardHolder {
-    width: 400px;
-  }
+    width: 400px; }
+
   .photoMain {
-    text-align: center;
-  }
-}
+    text-align: center; } }
+
+/*# sourceMappingURL=output.css.map */
